@@ -29,10 +29,33 @@ nav > a {
     font-size: 1em;
     padding: 9px;
     font-weight: bolder;
+    box-sizing: border-box;
 }
 
 nav > a:hover {
-    position: fixed;
     text-decoration: underline;
-    translate: 3px 1px;
+}
+
+div {
+    width: 70vw;
+    height: 75vh;
+    margin: auto auto 25px auto;
+    border-radius: 20px;
+}
+
+
+div#balada {
+    background-image: url(imagens-balada/balada01.jpg);
+}
+
+div#gravida {
+    background-image: url(imagens-gravida/gravida02.JPG);
+}
+
+div#marizete {
+    position: relative;
+    background-image: url(imagens-marizete/mari02.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
