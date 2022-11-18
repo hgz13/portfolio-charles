@@ -32,3 +32,16 @@ nav > a {
     font-weight: bolder;
     box-sizing: border-box;
 }
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+footer > p{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-family: 'Great Vibes', cursiva;
+    font-size: 3em;
+}
